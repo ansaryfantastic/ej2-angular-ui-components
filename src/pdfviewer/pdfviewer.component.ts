@@ -40,61 +40,71 @@ export class PdfViewerComponent extends PdfViewer implements IComponentBase {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerBookmarkView');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerMagnification');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerThumbnailView');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerToolbar');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerNavigation');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerPrint');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerTextSelection');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerTextSearch');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerAnnotation');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-        try {
+
+        try {
                 let mod = this.injector.get('PdfViewerFormFields');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
